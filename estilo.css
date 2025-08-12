@@ -1,0 +1,116 @@
+body{
+    font-family: arial sens serif;
+    background-color: #bcd4d8;
+    text-align: center;
+}
+h2{
+    position: relative;
+    top: 3px;
+    margin-right: 890pt;
+    margin-bottom: 50px;
+    background-color: #f70303b6;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 14.5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    position: absolute;
+    top: 7px;
+    left: 100pt;
+    display: flex;
+    background-color: #111111;
+    border-radius: 10px;
+}
+li{
+    color: #ffffff;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #1fbb0a;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+}
+
+.quiz-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px;
+    max-width: 400px;
+    margin-left: 380px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.question{
+    font-size: 26px;
+    font-weight: bold;
+}
+.answer{
+    margin-top: 50px;
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #1fbb0a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+}
+.answer:hover{
+    background-color: #117204;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 30px;
+    margin-left: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ajuda h4{
+    display: flex;
+    flex-direction: column;
+    margin-left: -120px;
+    margin-bottom: 40px;
+}
+.ajuda img{
+    margin-right: 40px;
+    position: relative;
+    right: 80px;
+    bottom: 15px;
+}
+div .pontuacao , p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.son{
+    position: relative;
+    top: -3px;
+    left: 25px;
+}
+.son img{
+    height: 40px;
+}
+.son h4, img{
+    margin-left: 90px;
+}
+.result{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+

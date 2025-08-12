@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Jogo de Perguntas e Respostas</title>
+</head>
+<body>
+<div class="menu">
+ <div><h2>QUIZ</h2></div>
+  <ul>
+    <a href=""><li class="home">Home</li></a>
+    <a href=""><li class="home">Categória</li></a>
+    <a href=""><li class="home">Categória</li></a>
+    <a href=""><li class="home">Categória</li></a>
+    <a href=""><li class="home">Categória</li></a>
+   
+  </ul>
+</div>
+
+<div class="quiz-container">
+    <div class="question" id="question"></div><br>
+
+    <div class="result" id="result"></div>
+    <button class="answer" id="answer1" onclick="checkAnswer(1)"></button>
+    <button class="answer" id="answer2" onclick="checkAnswer(2)"></button>
+    <button class="answer" id="answer3" onclick="checkAnswer(3)"></button>
+    <button class="answer" id="answer4" onclick="checkAnswer(4)"></button>
+ 
+  </div>
+
+  <div class="rodape">
+
+    <div class="ajuda">
+      <h4>Ajuda</h4>
+      <img src="img/ajuda.png" style="cursor: pointer;" alt="">
+    </div>
+
+    <div  class="pontuacao">
+      <h4>Pontuação</h4>
+      <p id="pontuacao">00</p>
+    </div>
+
+    <div class="son">
+      <h4>Som</h4>
+      <img id="son" src="img/020719075900_128.png" style="cursor: pointer;" onclick="fexarSom()" alt="">
+    </div>
+ 
+  </div> 
+    <script src="script.js"></script>
+</body>
+</html>
